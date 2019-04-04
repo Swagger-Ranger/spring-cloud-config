@@ -3,7 +3,7 @@ spring:
     name: spring-cloud-zipkin
 
 server:
-  port: 9411
+  port: 9411    #端口号为：9411，该端口号为 Zipkin Server 的默认端口号
 
 eureka:
   client:
